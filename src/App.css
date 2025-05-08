@@ -1,0 +1,51 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: block;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+h1{
+  font-family: 'Kanit';
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 100px;
+  font-size: 80px;
+}
+.cal-container{
+  display: flex;
+  background-color: black;
+}
+span{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  font-family: 'Kanit';
+  font-size: 45px;
+  padding: 10px;
+  width: 85px;
+  border: 1px solid gray;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.display{
+  background-color: white;
+  border: 1px solid gray;
+  height: 80px;
+  width: 406px;
+  margin-top: 40px;
+}
+input{
+  color: black;
+  font-family: 'Kanit';
+  font-size: 55px;
+  text-align: right;
+  padding-right: 20px;
+}
