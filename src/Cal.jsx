@@ -51,7 +51,7 @@ function Cal(){
                 setDisplayValue('error')
             }
         } else {
-            setDisplayValue(displayValue.toString()+newNum)
+            setDisplayValue(displayValue+newNum)
         }
 
     }
